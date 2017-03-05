@@ -55,6 +55,11 @@
     </footer>
 </div>
 
+<script>
+    jQuery('#searchTxt').on('input', function() {
+        redraw();
+    });
+</script>
 
 <script id="entry-template" type="text/x-handlebars-template">
     {{#valid}}

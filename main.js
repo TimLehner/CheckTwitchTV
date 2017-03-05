@@ -13,10 +13,6 @@ $( document ).ready(function() {
      setTimeout(function() {$('#On').click()}, 500);
 });
 
-jQuery('#searchTxt').on('input', function() {
-    redraw();
-});
-
 function remove(channelName) {
     // remove a channel from list of required channels
     var index = channelList.indexOf(channelName.toLowerCase());
