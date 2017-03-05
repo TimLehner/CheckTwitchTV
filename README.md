@@ -1,4 +1,7 @@
 # CheckTwitchTV
+
+[Check out the site!](https://timlehner.github.io/CheckTwitchTV/)
+
 A simple webpage to check the status of a number of twitch streamers.
 
 Uses bootstrap, jquery and handlebar to generate dynamic content.
